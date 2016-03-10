@@ -1,0 +1,129 @@
+// div {
+//     border: 1px solid #000000;
+// }
+
+.header1 {
+	text-align: center;
+}
+.header2 {
+	text-align: center;
+}
+#btn1 {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	margin: 20px 175px;
+}
+#btn1:hover {
+	background-color:#5cbf2a;
+}
+#btn1:active {
+	position:relative;
+	top:1px;
+}
+
+#btn2 {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	margin: 20px 175px;
+}
+#btn2:hover {
+	background-color:#5cbf2a;
+}
+#btn2:active {
+	position:relative;
+	top:1px;
+}
+#btn3 {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	margin: 20px 150px;
+}
+#btn3:hover {
+	background-color:#5cbf2a;
+}
+#btn3:active {
+	position:relative;
+	top:1px;
+}
+#btn4 {
+	background-color:#dddddd;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #dddddd;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	margin: 20px 150px;
+}
+#btn4:hover {
+	// background-color:#5cbf2a;
+}
+#btn4:active {
+	position:relative;
+	top:1px;
+}
+.wrapping{
+    width: 100%;
+    border: 1px solid pink;
+    height: 300px;
+    vertical-align: center;
+}
+#userChoice{
+    margin: 15px 250px;
+    float: left;
+    text-align: center;
+}
+#computerChoice{
+    // margin: 15px 250px;
+    float: left;
+    text-align: center;
+}
+#question {
+	width: 120px;
+	height: 120px;
+	margin-top: 15px;
+}
+.display-none {
+    display: none;
+    btn-display; none;
+}
+
