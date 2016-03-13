@@ -5,83 +5,7 @@
       <link rel='images' href='images'>
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" >
       </script>
-      <script>
-      // sets the image to the button you click
-			$(document).ready(function(){
-			    $("#btn1").click(function(){
-			      var rock = $('#rock');
-			      var userChoice = $('#userChoice');
-			      var btn4 = $('#btn4');
-			    	if(rock.hasClass('display-none')){
-			    		$('#rock').show(200);
-			    		rock.removeClass('display-none');
-			    		userChoice.css( { color:'red' } );
-			    		btn4.css({ background:'#44c767' });
-			    	} else {
-			    		$('#rock').toggle(200);
-			    		userChoice.css( { color:'black' } );
-			    		btn4.css( {background:'#dddddd'} );
-			    	}
-			    });
-			    $("#btn2").click(function(){
-			      var paper = $('#paper');
-			      var userChoice = $('#userChoice');
-			      var btn4 = $('#btn4');
-			    	if(paper.hasClass('display-none')){
-			    		$('#paper').show(200);
-			    	    paper.removeClass('display-none');
-			    	    userChoice.css( { color:'red' } );
-			    	    btn4.css({ background:'#44c767' });
-			    	} else {
-			    		$('#paper').toggle(200);
-			    		userChoice.css( { color:'black' } );
-			    		btn4.css( {background:'#dddddd'} );
-			    	}
-			    });
-			    $("#btn3").click(function(){
-			      var scissors = $('#scissors');
-			      var userChoice = $('#userChoice');
-			      var btn4 = $('#btn4');
-			    	if(scissors.hasClass('display-none')){
-			    		$('#scissors').show(200);
-			    	    scissors.removeClass('display-none');
-			    	    userChoice.css( { color:'red' } );
-			    	    btn4.css({ background:'#44c767' });
-			    	} else {
-			    		$('#scissors').toggle(200);
-			    		userChoice.css( { color:'black' } );
-			    		btn4.css( {background:'#dddddd'} );
-			    	}
-			    });
-			    $('#btn4').click(function(){
-			    	var choices = ['rock', 'paper', 'scissors'];
-			    	var rock2 = $('#rock2');
-			    	var paper2 = $('#paper2');
-			    	var scissors2 = $('#scissors2');
-			    	var btn4 = $('#btn4');
-			    	var computerChoice = $('#computerChoice');
-			    	var choice = choices[Math.floor(Math.random * choices.length)];
-			    		if(choice < 0.34){
-			    			  btn4.remove(200);
-			    			  $('#rock2').fadeIn(200);
-			    			  rock2.removeClass('display-none');
-			    			  computerChoice.css( { color:'red' } );
-			    			} else if(choice <= 0.64){
-			    			   btn4.addClass('display-none');
-			    			   $('#paper2').show(200);
-			    			   paper2.removeClass('display-none');
-			    			   computerChoice.css( { color:'red' } );
-			    			} else {
-			    			  btn4.fadeOut(300);
-			    			  $('#scissors2').fadeIn();
-			    			  scissors2.removeClass('display-none');
-			    			  computerChoice.css( { color:'red' } );
-			    			};
-			    			console.log(scissors2);
-			    });
-			});
-      </script>
-     </head>
+    </head>
     <body>
       <h1 class='header1'>Rock, Paper, Scissors game</h1>
         <h2 class='header2'>Select your choice and let see if you're smarter than a computer!</h2>
@@ -91,22 +15,22 @@
           <button id='btn3'>SCISSORS</button>
         </div>	
     	<hr/>
-    	<div class='wrapping'>
-    	  <div id='userChoice'>
-    		<h3>Your Choice...</h3>
-    		<!-- images -->
-    		  <!-- <img class='display' id='question' src='images/question.jpg'/> -->
-    		  <img class='display-none' id='rock' src='images/rock.jpg'/>
-    		  <img class='display-none' id='paper' src='images/paper.jpg'/>
-    		  <img class='display-none' id='scissors' src='images/scissors.jpg'/>
-    	  </div>
-    	  <div id='computerChoice'>
+    	  <div class='wrapping'>
+    	    <div id='userChoice'>
+    		    <h3>Your Choice...</h3>
+    		       <!-- images -->
+    		      <img class='display-none' id='rock' src='images/rock.jpg'/>
+    		      <img class='display-none' id='paper' src='images/paper.jpg'/>
+    		      <img class='display-none' id='scissors' src='images/scissors.jpg'/>
+    	    </div>
+    	    <div id='computerChoice'>
     	    <h3>Computer Choice...</h3>
     	      <button id='btn4'>See Computer's choice</button>
     	      <img class='display-none' id='rock2' src='images/rock.jpg'/>
-    		  <img class='display-none' id='paper2' src='images/paper.jpg'/>
-    		  <img class='display-none' id='scissors2' src='images/scissors.jpg'/>
+    		    <img class='display-none' id='paper2' src='images/paper.jpg'/>
+    		    <img class='display-none' id='scissors2' src='images/scissors.jpg'/>
+    	    </div>
     	  </div>
-    	</div>
+    	<script src="jquery/jquery2.js"></script>
     </body>
   </html>

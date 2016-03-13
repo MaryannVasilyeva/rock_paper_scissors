@@ -7,13 +7,14 @@
 }
 .header2 {
 	text-align: center;
+	color: #7a7887;
 }
 #btn1 {
-	background-color:#44c767;
+	background-color:#7a7887;
 	-moz-border-radius:28px;
 	-webkit-border-radius:28px;
 	border-radius:28px;
-	border:1px solid #18ab29;
+	border:1px solid #7a7887;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -25,7 +26,7 @@
 	margin: 20px 175px;
 }
 #btn1:hover {
-	background-color:#5cbf2a;
+	background-color:#333239;
 }
 #btn1:active {
 	position:relative;
@@ -33,11 +34,11 @@
 }
 
 #btn2 {
-	background-color:#44c767;
+	background-color:#2306f9;
 	-moz-border-radius:28px;
 	-webkit-border-radius:28px;
 	border-radius:28px;
-	border:1px solid #18ab29;
+	border:1px solid #2306f9;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -49,18 +50,18 @@
 	margin: 20px 175px;
 }
 #btn2:hover {
-	background-color:#5cbf2a;
+	background-color:#0f0368;
 }
 #btn2:active {
 	position:relative;
 	top:1px;
 }
 #btn3 {
-	background-color:#44c767;
+	background-color:#059e00;
 	-moz-border-radius:28px;
 	-webkit-border-radius:28px;
 	border-radius:28px;
-	border:1px solid #18ab29;
+	border:1px solid #059e00;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -72,7 +73,7 @@
 	margin: 20px 150px;
 }
 #btn3:hover {
-	background-color:#5cbf2a;
+	background-color:#034d00;
 }
 #btn3:active {
 	position:relative;
@@ -103,7 +104,6 @@
 }
 .wrapping{
     width: 100%;
-    border: 1px solid pink;
     height: 300px;
     vertical-align: center;
 }
