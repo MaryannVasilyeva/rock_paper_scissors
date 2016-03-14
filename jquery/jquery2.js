@@ -74,4 +74,18 @@ $(document).ready(function(){
 				console.log(paper2);
 				console.log(rock2);
 	});
+	$('#btn4').click(function(){
+		var rock = $('#rock');
+		var scissors = $('#scissors');
+		var paper = $('#paper');
+		var userChoice = [rock, paper, scissors];
+		var computerChoice = [rock, paper, scissors];
+		if(userChoice == computerChoice){
+			$('p:first').removeClass('display-none');
+		} else if(userChoice == rock && computerChoice == paper){
+			$('p:second').removeClass('display-none')
+		} else if(userChoice == paper && computerChoice == rock){
+			$('p: third').removeClass('display-none')
+		}
+	})
 });
